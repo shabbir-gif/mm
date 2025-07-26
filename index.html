@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ahtml/style.css">
+    <link rel="stylesheet" href="Ahtml/utils.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        @media only screen and (min-width:600px) and (max-width:2000px) {
+            footer {
+
+                background-color: lightskyblue;
+                color: white;
+
+            }
+        }
+
+        footer:hover {
+            color: black;
+            font-size: large;
+        }
+
+        @media only screen and (min-width:600px) and (max-width:2000px) {
+            header {
+
+                background-color: lightskyblue;
+                color: black;
+                font-size: large;
+
+            }
+        }
+
+        header:hover {
+            color: blue;
+            font-size: large;
+        }
+
+        main {
+            min-height: calc(100vh - 10vh - 60px);
+        }
+
+        nav {
+            display: flex;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+
+            padding: 0 25px;
+            color: white;
+
+        }
+
+        nav ul {
+            height: 60px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            padding: 0 28px;
+
+        }
+
+        .flex-all-center {
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+            margin: 0 40px;
+        }
+
+        .search input {
+            width: 493px;
+            height: 23px;
+            border-radius: 5px;
+            padding: 0 12px;
+        }
+
+        .btn {
+            padding: 4px 9px;
+            color: white;
+            background-color: blue;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+
+        .slider {
+
+            width: 52vw;
+            margin: 12px auto;
+        }
+
+
+        @media only screen and (min-width:600px) and (max-width:900px) {
+            .card {
+
+                margin: auto;
+                max-width: 80vw;
+            }
+        }
+
+
+        @media only screen and (min-width:600px) and (max-width:900px) {
+            .cards {
+                width: vw;
+                display: flex;
+                flex-direction: row;
+
+                justify-content: center;
+            }
+        }
+
+        .my-1 {
+            margin: 1px 0;
+        }
+
+        .text-center {
+            width: 15vw;
+            display: i;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 0 15px;
+        }
+
+
+        @media only screen and (min-width:600px) and (max-width:900px) {
+            .card-item {
+                width: vw;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+        }
+
+        .img {
+            width: vw;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./assest/image/logo.png.svg" alt="">
+
+            </div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+            <div class="search">
+                <input type="text" name"" id-"" placeholder="search Here">
+                <button class="btn">search</button>
+
+            </div>
+        </nav>
+
+    </header>
+    <main class="container">
+        <div class="slider">
+            <img src="./assest/image/img.007.webp" alt="">
+        </div>
+        <div class="card">
+            <h2></h2>
+            <div class="cards">
+                <div class="card item">
+                    <img src="./assest/image/Rise.webp" alt="">
+                    <div class="Lines">
+
+                    </div>
+                </div>
+                <div class="card item">
+                    <img src="./assest/image/soft.jpeg" alt="">
+                    <div class="Lines">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="card item">
+
+                        <div>
+                        </div>
+
+                    </div>
+                    <div>
+    </main>
+    <footer>
+        <div class="flex-all-center">
+            <P>SYED SHAH SHABBIR ALI HASNI</P>
+            
+        </div>
+    </footer>
+
+</body>
+
+</html>
